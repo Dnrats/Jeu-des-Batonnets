@@ -1,7 +1,11 @@
+body{
+    display: flex;
+}
 div{
     height: 450px;
     width: 50px;
     border-radius:999px;
     background: linear-gradient(165.33deg, #FBEEC1 10.37%, #BC986A 60.96%);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin:10px;
 }   
