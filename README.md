@@ -1,2 +1,3 @@
-# Jeu-des-Batonnets
-Jeu-des-Batonnets
+# Jeu des Bâtonnets
+
+### Les règles du jeu des bâtonnets
