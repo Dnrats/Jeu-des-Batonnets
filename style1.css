@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Jungle";
-    src: url('JungleAdventurer.ttf');
+    src: url('/assets/font/JungleAdventurer.ttf');
    }
 body{
     background: #154059;
@@ -9,11 +9,12 @@ body{
     overflow-y: hidden;
 }
 header{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 20vh;
 }
 main{
     height: 80vh;
@@ -70,7 +71,7 @@ h1{
     justify-content: space-between;
     align-items: center;
     width: 70%;
-    height: 20%;
+    height: 50%;
     margin-bottom: 30px;
 }
 p{
@@ -84,9 +85,10 @@ height: 75px;
 background-color: #154059;
 border-radius: 10px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-display: flex;
+display: none;
 justify-content: center;
 align-items: center;
+z-index: 0;
 }
 #button2{
     width: 75px;
@@ -94,9 +96,10 @@ align-items: center;
     background-color: #C99C72;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
+    display: none;
 justify-content: center;
 align-items: center;
+z-index: 0;
 }
 #button3{
     width: 75px;
@@ -104,9 +107,10 @@ align-items: center;
     background-color: #118ED7; 
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-    display: flex;
+    display: none;
 justify-content: center;
 align-items: center; 
+z-index: 0;
 }
 #button4{
     width: 75px;
@@ -114,7 +118,7 @@ align-items: center;
     background-color: #FEE379;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
+    display: none;
 justify-content: center;
 align-items: center;
 }
@@ -178,8 +182,7 @@ width: 100%;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #hiddendiv{
-    width: 80%;
-    height: 80%;
-    background-color: black;
-    
+  width: 80%;
+  height: 100%;
+  background-color: blanchedalmond;
 }
