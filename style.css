@@ -3,7 +3,7 @@ body{
     margin:10px;
 }
 
-div{
+.jsDiv{
     height: 450px;
     width: 50px;
     margin:10px;
@@ -12,3 +12,6 @@ div{
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }   
 
+.hidden{
+    display: none;
+}
