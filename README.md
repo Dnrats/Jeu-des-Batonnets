@@ -17,7 +17,7 @@ Ce projet consiste à créer un jeu avec suivie des bâtonnets restants.
 
 Projet en collaboration avec Florian Moulun et Dereje Getu tadesse. Le projet a été réalisé dans le cadre d'une formation développeur web Full Stack.
 
-Le projet s'est effectué *du 01/04/2022 au 05/04/2022*.
+Le projet s'est effectué *du 01/04/2022 au 0/04/2022*.
 
 
 ##  Technologies utilisées
