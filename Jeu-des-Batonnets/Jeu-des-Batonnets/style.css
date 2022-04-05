@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Jungle";
+    src: url("./JungleAdventurer.ttf") format("ttf"),
+   }
+body{
+    background: rgb(221,180,117);
+    background: linear-gradient(270deg, rgba(221,180,117,1) 36%, rgba(227,203,156,1) 96%);
+}
+main{
+    height: 80vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Jungle';
+}
