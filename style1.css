@@ -16,6 +16,10 @@ header{
     align-items: center;
     height: 20vh;
 }
+#imgquestion{
+    width: 70%;
+    height: 70%;
+}
 main{
     height: 80vh;
     width: 100vw;
@@ -85,7 +89,7 @@ height: 75px;
 background-color: #154059;
 border-radius: 10px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-display: none;
+display: flex;
 justify-content: center;
 align-items: center;
 z-index: 0;
@@ -96,7 +100,7 @@ z-index: 0;
     background-color: #C99C72;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: none;
+    display: flex;
 justify-content: center;
 align-items: center;
 z-index: 0;
@@ -107,7 +111,7 @@ z-index: 0;
     background-color: #118ED7; 
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-    display: none;
+    display: flex;
 justify-content: center;
 align-items: center; 
 z-index: 0;
@@ -118,7 +122,7 @@ z-index: 0;
     background-color: #FEE379;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: none;
+    display: flex;
 justify-content: center;
 align-items: center;
 }
@@ -140,6 +144,7 @@ align-items: center;
     background: linear-gradient(90deg, rgba(251,238,193,1) 36%, rgba(218,173,134,1) 96%);
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px;
 }
 #bottombuttons{
 display: flex;
@@ -186,7 +191,7 @@ width: 100%;
   height: 100%;
   background-color: blanchedalmond;
   border-radius: 10px;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   
@@ -194,7 +199,7 @@ width: 100%;
 }
 #rules{
     margin: 0;
-  font-size: 1.5rem;  
+  font-size: 1.3rem;  
   color: white;
   font-family: "Jungle";
   width: 90%;
@@ -202,13 +207,14 @@ width: 100%;
 }
 
                                                     /* RESPONSIVE PHONE */
-@media only screen and (min-width: 350px){
+@media only screen and (min-width: 350px) and (max-width: 600px){
 html{
     font-size: 10px;
 }
 #question{
     width: 50px;
     height: 50px;
+    
 }
 main{
     height: 100vh;
@@ -223,7 +229,7 @@ height: 70%;
     font-size: 1.5rem;
 }
 #hiddendiv{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     height: 50%;
@@ -237,21 +243,25 @@ height: 70%;
     display: flex;
     width: 50px;
     height: 50px;
+    margin: 10px;
 }
 #button2{
     display: flex;
     width: 50px;
     height: 50px;
+    margin: 10px;
 }
 #button3{
     display: flex;
     width: 50px;
     height: 50px;
+    margin: 10px;
 }
 #button4{
     display: flex;
     width: 50px;
     height: 50px;
+    margin: 10px;
 }
 .images{
     width: 80%;
@@ -273,10 +283,12 @@ height: 70%;
     height: 20vh;
 }
 header{
-    height: 40%;
+    height: 250px;
 }
 #leftpart{
-    width: 15%;
+    width: 20%;
+    height: 40%;
+    margin-left: 10px;
 }
 #bottombuttons{
     display: flex;
@@ -297,11 +309,26 @@ h2{
     margin: 0;
 }
 
-
-
-
-
-
+}
+@media only screen and (min-width: 650px) and (max-width: 900px){
+html{
+    font-size: 14px;
+}
+#button1{
+margin: 10px;
+}
+#leftpart{
+    width: 20%;
+}
+#rightpart{
+    width: 80%;
+}
+#section2{
+    width: 100%;
+}
+#bottombuttons{
+    width: 80%;
+}
 
 
 
