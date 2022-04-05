@@ -1,0 +1,254 @@
+
+.animate {
+  animation: boom 0.5s ease forwards;
+}
+
+
+
+.jsDiv{
+ height: 75%;
+ width: 10%;
+ margin:10px;
+ border-radius:999px;
+ background: linear-gradient(165.33deg, #FBEEC1 10.37%, #BC986A 60.96%);
+ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.hidden{
+    
+     animation: boom 0.5s ease forwards;
+     
+}
+
+@keyframes boom {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1.5);
+    opacity: 0.75;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Jungle";
+    src: url('/assets/font/JungleAdventurer.ttf');
+   }
+body{
+    background: #154059;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+header{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+main{
+    height: 80vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Jungle";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 3em;
+}
+#question{
+    width: 75px;
+    height: 75px;
+    background-color: #DAAD86;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#question2{
+    width: 75px;
+    height: 75px;
+    background-color: #DAAD86;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#leftpart{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+
+}
+#rightpart{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+
+}
+#section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+    margin-bottom: 30px;
+}
+p{
+    color: white;
+    font-family: "Jungle";
+    font-size: 2em;
+}
+#button1{
+width: 75px;
+height: 75px;
+background-color: #154059;
+border-radius: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#button2{
+    width: 75px;
+    height: 75px;
+    background-color: #C99C72;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#button3{
+    width: 75px;
+    height: 75px;
+    background-color: #118ED7; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    display: flex;
+justify-content: center;
+align-items: center; 
+
+}
+#button4{
+    width: 75px;
+    height: 75px;
+    background-color: #FEE379;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.images{
+    margin: 0;
+    padding: 0;
+}
+.images1{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#maindiv{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(251,238,193);
+    background: linear-gradient(90deg, rgba(251,238,193,1) 36%, rgba(218,173,134,1) 96%);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#bottombuttons{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+width: 50%;
+height: 20%;
+border-radius: 10px;
+}
+h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Jungle";
+    font-size: 2em;
+
+}
+.choice{
+    width: 75px;
+    height: 75px;
+    background-color: #FBEEC1;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#section2{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width: 100%;
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 2em;
+    color: #BC986A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#hiddendiv{
+  width: 80%;
+  height: 100%;
+  background-color: blanchedalmond;
+  display: none;
+}

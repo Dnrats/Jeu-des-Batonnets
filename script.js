@@ -523,6 +523,3 @@ b3.addEventListener('click', function () {
 
 
 console.log(`${tab.length} est taille du tableaux`);
-
-
-console.log(tab);
